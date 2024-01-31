@@ -5,6 +5,7 @@ class Pupa:
         for i in range(len(spisok1)):
             spisok1[i] -= spisok2[i]
         self.bob += 1000
+        return spisok1
     def take_salary(self):
         print(self.bob)
         self.bob = 0
@@ -16,6 +17,7 @@ class Lupa:
         for i in range(len(spisok1)):
             self.bob += 10
             spisok1[i] += spisok2[i]
+        return spisok1
         
             
     def take_salary(self):
